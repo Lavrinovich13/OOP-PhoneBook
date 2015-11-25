@@ -1,0 +1,16 @@
+﻿<Window x:Class="PhoneBook.CreatePersonForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewPerson" Height="218.763" Width="297.031" ResizeMode="CanMinimize" FontSize="14">
+    <Grid>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Height="23" Margin="109,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="tbLastName" HorizontalAlignment="Left" Height="23" Margin="109,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="tbPatronymic" HorizontalAlignment="Left" Height="23" Margin="109,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="tbDesc" HorizontalAlignment="Left" Height="23" Margin="109,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.ColumnSpan="2"/>
+        <Label Content="Имя: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Фамилия: " HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отчество: " HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Доп.Инфо: " HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="bAddPerson" Content="Добавить" HorizontalAlignment="Left" Margin="109,155,0,0" VerticalAlignment="Top" Width="75" Click="bAddPerson_Click" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

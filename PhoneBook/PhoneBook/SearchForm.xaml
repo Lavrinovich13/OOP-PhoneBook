@@ -1,0 +1,10 @@
+﻿<Window x:Class="PhoneBook.SearchForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SearchForm" Height="90.722" Width="310.309" ResizeMode="CanMinimize" Closing="Window_Closing">
+    <Grid>
+        <TextBox x:Name="tbSearchText" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" Grid.ColumnSpan="2"/>
+        <Button x:Name="bSearch"  Content="->" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="21" Height="23" RenderTransformOrigin="-0.47,0.018" Click="bSearch_Click"/>
+
+    </Grid>
+</Window>
