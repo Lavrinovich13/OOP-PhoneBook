@@ -43,6 +43,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -60,39 +62,43 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="CreateNumberForm.xaml.cs">
-      <DependentUpon>CreateNumberForm.xaml</DependentUpon>
+    <Compile Include="CreatePersonWindow.xaml.cs">
+      <DependentUpon>CreatePersonWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreatePersonForm.xaml.cs">
-      <DependentUpon>CreatePersonForm.xaml</DependentUpon>
+    <Compile Include="CreateNumberWindow.xaml.cs">
+      <DependentUpon>CreateNumberWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EditNumberForm.xaml.cs">
-      <DependentUpon>EditNumberForm.xaml</DependentUpon>
+    <Compile Include="DAL\AbstractRepository\DataRepository.cs" />
+    <Compile Include="DAL\Interfaces\IRepository.cs" />
+    <Compile Include="DAL\Repositories\PeopleRepository.cs" />
+    <Compile Include="DAL\Repositories\PhoneNumbersRepository.cs" />
+    <Compile Include="DAL\UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="EntityModels\Person.cs">
+      <DependentUpon>PhoneBookDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="EditPersonForm.xaml.cs">
-      <DependentUpon>EditPersonForm.xaml</DependentUpon>
+    <Compile Include="EntityModels\PhoneBookDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoneBookDB.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Repositories\Interfaces\IRepository.cs" />
-    <Compile Include="Repositories\PeopleRepository.cs" />
-    <Compile Include="Repositories\PhoneNumbersRepository.cs" />
-    <Compile Include="Repositories\RepositoryModels\RepositoryModelPerson.cs" />
-    <Compile Include="Repositories\RepositoryModels\RepositoryModelPhoneNumber.cs" />
-    <Compile Include="SearchForm.xaml.cs">
-      <DependentUpon>SearchForm.xaml</DependentUpon>
+    <Compile Include="EntityModels\PhoneBookDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoneBookDB.tt</DependentUpon>
     </Compile>
-    <Page Include="CreateNumberForm.xaml">
+    <Compile Include="EntityModels\PhoneBookDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhoneBookDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModels\PhoneNumber.cs">
+      <DependentUpon>PhoneBookDB.tt</DependentUpon>
+    </Compile>
+    <Page Include="CreatePersonWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CreatePersonForm.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="EditNumberForm.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="EditPersonForm.xaml">
+    <Page Include="CreateNumberWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -108,15 +114,8 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="SearchForm.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\ApplicationContext.cs" />
-    <Compile Include="Model\Person.cs" />
-    <Compile Include="Model\PhoneNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -134,6 +133,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="EntityModels\PhoneBookDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PhoneBookDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EntityModels\PhoneBookDB.edmx.diagram">
+      <DependentUpon>PhoneBookDB.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -145,6 +151,21 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EntityModels\PhoneBookDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PhoneBookDB.edmx</DependentUpon>
+      <LastGenOutput>PhoneBookDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EntityModels\PhoneBookDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PhoneBookDB.edmx</DependentUpon>
+      <LastGenOutput>PhoneBookDB.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
