@@ -1,49 +1,8 @@
 ﻿<Window x:Class="PhoneBook.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-              Title="MainWindow" Height="409" Width="685" Loaded="Window_Loaded" ResizeMode="CanMinimize" FontSize="14" Closing="Window_Closing">
-    <Grid Margin="0,0,4,-3">
-        <DataGrid x:Name="PeopleGrid" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="0,29,0,0" VerticalAlignment="Top" Height="209" Width="675" IsReadOnly="True" SelectionChanged="PeopleGrid_SelectionChanged" >
-            <DataGrid.ContextMenu>
-                <ContextMenu>
-                    <MenuItem Header="добавить человека" Click="AddPerson_Click"/>
-                    <MenuItem Header="удалить человека" Click="RemovePerson_Click"/>
-                </ContextMenu>
-            </DataGrid.ContextMenu>
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Visibility="Hidden" 
-                             Binding="{Binding Path=Id}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Имя" Width="*" 
-                             Binding="{Binding Path=FirstName}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Фамилия" Width="*" 
-                             Binding="{Binding Path=LastName}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Отчество" Width="*" 
-                             Binding="{Binding Path=Patronymic}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Доп.инфо" Width="*" 
-                             Binding="{Binding Path=Description}"></DataGridTextColumn>
-            </DataGrid.Columns>
-        </DataGrid>
-        <DataGrid x:Name="NumbersGrid" AutoGenerateColumns="False" HorizontalAlignment="Left" Margin="0,238,0,0" VerticalAlignment="Top" Height="143" Width="675" IsReadOnly="True" >
-            <DataGrid.ContextMenu>
-                <ContextMenu>
-                    <MenuItem Header="добавить номер" Click="AddNumber_Click"/>
-                    <MenuItem Header="удалить номер" Click="RemoveNumber_Click"/>
-                </ContextMenu>
-            </DataGrid.ContextMenu>
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Visibility="Hidden" 
-                             Binding="{Binding Path=Id}"></DataGridTextColumn>
-                <DataGridTextColumn Header="UserId" Visibility="Hidden" 
-                             Binding="{Binding Path=PersonId}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Номер" Width="*" 
-                             Binding="{Binding Path=Number}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Описание" Width="*" 
-                             Binding="{Binding Path=Description}"></DataGridTextColumn>
-            </DataGrid.Columns>
-        </DataGrid>
-        <Menu Height="29" VerticalAlignment="Top" Grid.ColumnSpan="3">
-            <MenuItem x:Name="miRefresh" Header="Обновить" Click="miRefresh_Click" Height="29"/>
-            <MenuItem x:Name="miSearch" Header="Поиск" Height="29"/>
-        </Menu>
+        Title="Phone Book" Height="501" Width="567" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        
     </Grid>
 </Window>

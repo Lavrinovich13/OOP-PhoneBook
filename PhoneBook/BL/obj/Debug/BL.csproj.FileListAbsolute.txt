@@ -1,0 +1,16 @@
+C:\Users\Ksenia\Desktop\PhoneBook\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\BL.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\BL.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\AutoMapper.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\DAL.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityModels.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityFramework.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\DAL.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityModels.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\AutoMapper.xml
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityFramework.xml
+C:\Users\Ksenia\Desktop\PhoneBook\BL\obj\Debug\BL.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\obj\Debug\BL.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\BL.dll.config
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ksenia\Desktop\PhoneBook\BL\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,11 @@
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityModels.dll.config
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityModels.dll
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityModels.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityFramework.dll
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityFramework.xml
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\obj\Debug\EntityModels.csprojResolveAssemblyReference.cache
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\obj\Debug\EntityModels.dll
+C:\Users\Ksenia\Desktop\PhoneBook\EntityModels\obj\Debug\EntityModels.pdb

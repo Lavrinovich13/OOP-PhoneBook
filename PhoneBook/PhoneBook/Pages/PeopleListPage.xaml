@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="PhoneBook.Pages.PeopleListPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="501" Width="567" Loaded="Window_Loaded">
+
+    <Grid>
+        <ListBox x:Name="PeopleList" Height="425" HorizontalAlignment="Left" VerticalAlignment="Top" Width="547" Margin="0,45,0,0" BorderThickness="0,0,0,0" MouseDoubleClick="PeopleList_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <ContentControl Margin="3" Content="{Binding Image}" Height="80" Width="80"/>
+                        <StackPanel Orientation="Vertical" >
+                            <TextBlock Margin="20, 30, 0, 0" Text="{Binding FullName}" FontSize="20" />
+                            <TextBlock Margin="20, 0, 0, 0" Text="{Binding NumberInfo}" FontSize="16" />
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Height="35" HorizontalAlignment="Left" Margin="511,10,0,0" Name="bSearch" VerticalAlignment="Top" Width="36" ToolTip="Поиск" BorderThickness="0,2,2,2" Background="#FFFFFEFE" Click="bSearch_Click" BorderBrush="#FFABADB3">
+            <StackPanel>
+                <Image Source="../Resource/search_6167.png" />
+            </StackPanel>
+        </Button>
+        <TextBox Name="tbSearch" HorizontalAlignment="Left" Height="35" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="511" ToolTip="Поиск" FontSize="20" BorderThickness="2,2,0,2" KeyUp="tbSearch_KeyUp"/>
+        <Button Height="50" HorizontalAlignment="Left" Margin="473,410,0,0" Name="bAddPerson" VerticalAlignment="Top" Width="50" ToolTip="Добавить контакт" BorderThickness="0" Background="#FFFFFEFE" Click="bAddPerson_Click">
+            <StackPanel>
+                <Image Source="../Resource/add_4109.png" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</UserControl>

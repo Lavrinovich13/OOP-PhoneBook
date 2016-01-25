@@ -1,49 +1,33 @@
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreateNumberForm.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreatePersonForm.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\EditNumberForm.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\EditPersonForm.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\MainWindow.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreateNumberForm.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreatePersonForm.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\EditNumberForm.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\EditPersonForm.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\MainWindow.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\App.g.cs
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.dll
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.xml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\SearchForm.baml
-C:\Users\Ksenia\Desktop\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\SearchForm.g.cs
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\MainWindow.baml
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\MainWindow.g.cs
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\App.g.cs
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook_Content.g.cs
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.dll
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.dll
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.xml
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.xml
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreatePersonWindow.baml
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreateNumberWindow.baml
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreatePersonWindow.g.cs
-D:\Рабочий стол\PhoneBook1\PhoneBook\PhoneBook\obj\Debug\CreateNumberWindow.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\MainWindow.baml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\MainWindow.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\App.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\BL.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityFramework.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityModels.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\DAL.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\AutoMapper.dll
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\BL.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityFramework.xml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\EntityModels.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\DAL.pdb
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\bin\Debug\AutoMapper.xml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\PeopleListPage.baml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\PeopleListPage.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\PersonInfoPage.baml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\PersonInfoPage.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\AddPersonPage.baml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\AddPersonPage.g.cs
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\UpdatePersonPage.baml
+C:\Users\Ksenia\Desktop\PhoneBook\PhoneBook\obj\Debug\Pages\UpdatePersonPage.g.cs

@@ -1,0 +1,12 @@
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\EntityFramework.dll
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.dll
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\EntityFramework.xml
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\EntityFramework.SqlServer.xml
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\AppData\PhoneBook.mdf
+D:\3 курс проекты\PhoneBook\PhoneBook\PhoneBook\bin\Debug\AppData\PhoneBook_log.ldf

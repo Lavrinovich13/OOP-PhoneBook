@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("entitymodels/phonebookdb.context.tt")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("entitymodels/phonebookdb.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pages/peoplelist.xml")]
 
 
